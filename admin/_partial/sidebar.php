@@ -16,6 +16,12 @@
         </a>
       </li>
       <li class="nav-item">
+        <a class="nav-link <?= ($activePage == 'booking') ? 'active':''; ?>" href="booking.php">
+          <span data-feather="book-open"></span>
+          Booking
+        </a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link <?= ($activePage == 'facilities') ? 'active':''; ?>" href="facilities.php">
           <span data-feather="map"></span>
           Facilities
